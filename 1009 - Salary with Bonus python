@@ -1,0 +1,5 @@
+nome = input()
+salarioFixo = float(input())
+totalVendas = float(input())
+total = 15/100*totalVendas+salarioFixo
+print("TOTAL = R$ %0.2f"%total)
