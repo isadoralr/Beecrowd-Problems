@@ -1,0 +1,8 @@
+linha1 = input().split(" ")
+A, B = linha1
+A = int(A)
+B = int(B)
+if A%B == 0 or B%A == 0:
+    print("Sao Multiplos")
+else:
+    print("Nao sao Multiplos")
